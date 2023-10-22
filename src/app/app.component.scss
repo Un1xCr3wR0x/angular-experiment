@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    .item {
+      height: 300px;
+      background: grey;
+      flex: 2 2 20%;
+  
+      &.active {
+          border:3px solid red;
+      }
+    }
+    
+  }
